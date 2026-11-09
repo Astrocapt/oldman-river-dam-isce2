@@ -1,7 +1,8 @@
 # Oldman River Dam - Sentinel-1 coregistered SLC stack (ISCE2)
 
 Sentinel-1B descending track 71, IW2, VV, 144 dates (2017-02-26 to 2021-12-14), reference 2017-05-21.
-Processed on ASF OpenSARlab: ISCE2 2.6.5 topsStack (slc workflow, NESD) -> MiaplPy load_data,
+Processed on ASF OpenSARlab with ISCE2 2.6.5 topsStack (slc workflow, NESD coregistration). The coregistered
+SLCs and the radar geometry were then written to HDF5 with `load_slc_geometry.py` (loading step only, no further processing),
 giving `slcStack.h5` (coregistered SLCs) and `geometryRadar.h5`.
 
 **Data (slcStack.h5, geometryRadar.h5):** https://doi.org/10.5281/zenodo.24088874
