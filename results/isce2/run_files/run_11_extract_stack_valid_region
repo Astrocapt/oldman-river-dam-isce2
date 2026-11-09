@@ -1,0 +1,1 @@
+extractCommonValidRegion.py -m /home/jovyan/oldman_isce2/stack_FULL/reference -s /home/jovyan/oldman_isce2/stack_FULL/coreg_secondarys

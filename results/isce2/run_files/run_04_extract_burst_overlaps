@@ -1,0 +1,1 @@
+subsetReference.py -m /home/jovyan/oldman_isce2/stack_FULL/reference -g /home/jovyan/oldman_isce2/stack_FULL/geom_reference

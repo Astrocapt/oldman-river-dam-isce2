@@ -1,0 +1,2 @@
+invertMisreg.py -i /home/jovyan/oldman_isce2/stack_FULL/misreg/azimuth/pairs/ -o /home/jovyan/oldman_isce2/stack_FULL/misreg/azimuth/dates/
+invertMisreg.py -i /home/jovyan/oldman_isce2/stack_FULL/misreg/range/pairs/ -o /home/jovyan/oldman_isce2/stack_FULL/misreg/range/dates/

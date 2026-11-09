@@ -1,0 +1,30 @@
+2026-11-08 16:25  4a burst search: 0.0 min
+2026-11-08 16:26  4a burst search: 0.0 min
+2026-11-08 17:32  4b download + SAFE: 65.5 min
+2026-11-08 17:32  5 orbits: 0.6 min
+2026-11-08 17:33  6 DEM: 0.0 min
+2026-11-08 17:33  7 stackSentinel: 0.1 min
+2026-11-08 17:46  8 run_01_unpack_topo_reference: 13.2 min
+2026-11-08 17:46  8 run_02_unpack_secondary_slc: 0.5 min
+2026-11-08 17:47  8 run_03_average_baseline: 0.3 min
+2026-11-08 17:47  8 run_04_extract_burst_overlaps: 0.0 min
+2026-11-08 18:00  8 run_05_overlap_geo2rdr: 13.1 min
+2026-11-08 18:48  8 run_06_overlap_resample: 48.7 min
+2026-11-08 19:23  8 run_07_pairs_misreg: 34.9 min
+2026-11-08 19:24  8 run_08_timeseries_misreg: 0.5 min
+2026-11-08 22:01  8 run_09_fullBurst_geo2rdr: 157.4 min
+2026-11-09 03:21  8 run_01_unpack_topo_reference: 0.0 min
+2026-11-09 03:21  8 run_02_unpack_secondary_slc: 0.0 min
+2026-11-09 03:21  8 run_03_average_baseline: 0.0 min
+2026-11-09 03:21  8 run_04_extract_burst_overlaps: 0.0 min
+2026-11-09 03:21  8 run_05_overlap_geo2rdr: 0.0 min
+2026-11-09 03:21  8 run_06_overlap_resample: 0.0 min
+2026-11-09 03:21  8 run_07_pairs_misreg: 0.0 min
+2026-11-09 03:21  8 run_08_timeseries_misreg: 0.0 min
+2026-11-09 03:21  8 run_09_fullBurst_geo2rdr: 0.0 min
+2026-11-09 03:56  8 run_10_fullBurst_resample: 35.0 min
+2026-11-09 03:57  8 run_11_extract_stack_valid_region: 0.8 min
+2026-11-09 04:49  8 run_12_merge_reference_secondary_slc: 52.1 min
+2026-11-09 04:51  8 run_13_grid_baseline: 1.6 min
+2026-11-09 04:51  8 topsStack total: 89.5 min
+2026-11-09 04:56  10 h5 files: 4.9 min

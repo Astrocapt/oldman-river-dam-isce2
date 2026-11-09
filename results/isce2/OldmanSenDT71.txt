@@ -1,0 +1,20 @@
+##---- Oldman River Dam, Sentinel-1B descending track 71, ISCE2 topsStack slc workflow
+miaplpy.load.processor      = isce
+miaplpy.load.updateMode     = yes
+miaplpy.load.compression    = no
+miaplpy.load.autoPath       = no
+miaplpy.load.slcFile        = /home/jovyan/oldman_isce2/stack_FULL/merged/SLC/*/*.slc.full
+miaplpy.load.startDate      = auto
+miaplpy.load.endDate        = auto
+miaplpy.load.metaFile       = /home/jovyan/oldman_isce2/stack_FULL/reference/IW2.xml
+miaplpy.load.baselineDir    = /home/jovyan/oldman_isce2/stack_FULL/baselines
+miaplpy.load.demFile        = /home/jovyan/oldman_isce2/stack_FULL/merged/geom_reference/hgt.rdr.full
+miaplpy.load.lookupYFile    = /home/jovyan/oldman_isce2/stack_FULL/merged/geom_reference/lat.rdr.full
+miaplpy.load.lookupXFile    = /home/jovyan/oldman_isce2/stack_FULL/merged/geom_reference/lon.rdr.full
+miaplpy.load.incAngleFile   = /home/jovyan/oldman_isce2/stack_FULL/merged/geom_reference/los.rdr.full
+miaplpy.load.azAngleFile    = /home/jovyan/oldman_isce2/stack_FULL/merged/geom_reference/los.rdr.full
+miaplpy.load.shadowMaskFile = /home/jovyan/oldman_isce2/stack_FULL/merged/geom_reference/shadowMask.rdr.full
+miaplpy.load.waterMaskFile  = None
+miaplpy.load.bperpFile      = None
+miaplpy.subset.yx           = no
+miaplpy.subset.lalo         = 49.53:49.60,-113.96:-113.83
